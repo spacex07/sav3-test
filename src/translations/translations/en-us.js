@@ -2,31 +2,31 @@ import createTranslation from '../create-translation'
 
 const translation = createTranslation({
   // profile
-  Follow: () => 'Follow',
-  Unfollow: () => 'Unfollow',
-  'Edit profile': () => 'Edit profile',
-  'Display name': () => 'Display name',
-  Description: () => 'Description',
-  'Thumbnail URL': () => 'Thumbnail URL',
-  'Banner URL': () => 'Banner URL',
+  Follow: () => 'Takip et',
+  Unfollow: () => 'Takibi Bırak',
+  'Edit profile': () => 'Profili Düzenle',
+  'Display name': () => '	Görüntülenecek İsim',
+  Description: () => 'Açıklama',
+  'Thumbnail URL': () => 'Profil Resmi URL’si',
+  'Banner URL': () => 'Kapak Sayfası URL’si',
 
   // menu
-  Home: () => 'Home',
-  Profile: () => 'Profile',
-  Search: () => 'Search',
-  'Search user ID': () => 'Search user ID',
-  Peers: () => 'Peers',
-  'Connected peers posts': () => 'Connected peers posts',
-  Stats: () => 'Stats',
-  'Connected peers stats': () => 'Connected peers stats',
-  'Connecting to peers': () => 'Connecting to peers',
-  Following: () => 'Following',
-  'Not following anyone': () => 'Not following anyone',
-  Export: () => 'Export',
-  Import: () => 'Import',
+  Home: () => 'Anasayfa',
+  Profile: () => 'Profil',
+  Search: () => 'Ara',
+  'Search user ID': () => 'Kullanıcı Adı Ara',
+  Peers: () => 'Eşler',
+  'Connected peers posts': () => 'Eşlere Bağlandı',
+  Stats: () => 'İstatikler',
+  'Connected peers stats': () => 'Eşler  İstatiklerine bağlandı',
+  'Connecting to peers': () => 'Eşlere bağlanıyor',
+  Following: () => 'Takip ediliyor',
+  'Not following anyone': () => 'Hiç kimseyi takip etmiyorsunuz',
+  Export: () => 'Dışarı aktar',
+  Import: () => 'İçeri aktar',
 
   // post
-  'Uncensorable content': () => 'Uncensorable content'
+  'Uncensorable content': () => 'Sansürsüz içerik'
 })
 
 export default translation
